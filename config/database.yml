@@ -19,7 +19,7 @@ default: &default
   host: localhost 
   encoding: unicode
   username: <%= ENV.fetch('DB_USERNAME', 'postgres') %>
-  password: <%= ENV.fetch('DB_PASS', 'PGsqlOasi1') %>
+  password: <%= ENV.fetch('DB_PASS', 'Oasi2023!!') %>
   pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
 
 development:

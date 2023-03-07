@@ -10,9 +10,12 @@ gem "rails", "~> 7.0.4", ">= 7.0.4.2"
 gem "sprockets-rails"
 
 # Use postgresql as the database for Active Record
-gem "pg", "~> 1.1"
+gem "pg"
 
+#webserver produzione server inoma
 gem "passenger"
+
+#dblocale.. ma utilizzo PG
 gem "sqlite3"
 
 # Bundle and transpile JavaScript [https://github.com/rails/jsbundling-rails]
